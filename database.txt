@@ -1,0 +1,19 @@
+CARS
+---------------------
+
+id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
+car_model - VARCHAR(25) - NOT NULL              
+price - MEDIUMINT - UNSIGNED - NOT NULL              
+year - YEAR - NOT NULL                                          
+color -  VARCHAR(15)                                 
+fuel -  VARCHAR(15) - NOT NULL   
+vin - VARCHAR(30) - UNIQUE - NOT NULL                                          
+spare_wheel - TINYINT - DEFAULT(0)              
+seats - TINYINT (6) - UNSIGNED                      
+doors -  TINYINT (6) - UNSIGNED                    
+mileage - MEDIUMINT  - UNSIGNED - NOT NULL                      
+owners - TINYINT (10)  - NOT NULL                    
+available - TINYINT - DEFAULT(1)  
+image - TEXT               
+vote - FLOAT(3,1)                
+reviews - TEXT                                       
